@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #222;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.idish {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent {
+    padding: 20px;
+    border: 1px solid #000;
+    display: flex;
+}
+
+.child {
+    border: 3px solid #000;
+    width: 100%;
+    text-align: center;
+    height: 40vh;
+    background-color: orange;
+    padding: 10px;
+}
