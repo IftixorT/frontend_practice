@@ -220,7 +220,7 @@ body {
     font-size: 1.3rem;
     opacity: 0.5;
 }
-
+/*
 html,
 body,
 div,
@@ -309,7 +309,7 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -395,7 +395,7 @@ a {
     position: relative;
     padding: 2rem 4.9rem;
     border-radius: 50em;
-    /* border: 2px solid #2d3e50; */
+    border: 2px solid #2d3e50;
 
     background: #f2f1f8;
 }
@@ -454,7 +454,7 @@ a {
 .pricing-list > li {
     position: relative;
     margin-bottom: 1em;
-    /* border: 3px solid #222; */
+    border: 3px solid #222;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1066,4 +1066,4 @@ a {
     }
 }
 @media only screen and (max-width: 1024px) {
-}
+} */
