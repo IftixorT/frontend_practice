@@ -1,0 +1,171 @@
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #222;
+}
+
+.button_all {
+  display: inline-block;
+  padding: 12px 32px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 10px;
+  white-space: nowrap;
+  transition: all 0.5s ease;
+}
+
+.button_all:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+.button_all:active {
+  opacity: 0.6;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: var(--text-color);
+  letter-spacing: -0.01em;
+}
+
+/* img {
+      width: 100%;
+      height: auto;
+  } */
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.site-header {
+  padding-top: 23px;
+  padding-bottom: 12px;
+  background-color: #fff;
+}
+.site-header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-right: 111px;
+}
+
+.site-header_logo {
+  margin-right: 36px;
+  margin-left: 120px;
+}
+.logo {
+  display: block;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
+.logo_img {
+  display: block;
+}
+
+.site-header_sitenav {
+  display: flex;
+  align-items: center;
+}
+
+.site_nav {
+  list-style: none;
+}
+.sitenav_list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 462px;
+  font-size: 14px;
+  list-style: none;
+}
+.sitenav_item {
+  margin-left: 44px;
+}
+.sitenav_link {
+  transition: all 0.5s ease;
+  font-weight: 500;
+}
+
+.sitenav_link:hover {
+  opacity: 0.8;
+  color: #a177f8;
+}
+
+.sitenav_link:active {
+  opacity: 0.6;
+}
+
+.lang_login {
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.lang_login > svg,
+.button {
+  transition: all 0.5s ease;
+  margin-right: 56px;
+}
+
+.lang_login > a:hover {
+  /* color: #a177f8; */
+  opacity: 0.8;
+  background-color: #000000;
+  color: #fff;
+}
+
+.lang_login > a:active {
+  opacity: 0.6;
+}
+
+.sitenav_button {
+  display: inline-block;
+  padding: 12px 32px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+/* Home section */
+.home_section {
+  display: flex;
+  align-items: center;
+}
+
+.home{
+    .home_section{
+        
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+}
